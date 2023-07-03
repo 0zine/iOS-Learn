@@ -17,6 +17,19 @@ struct Content: Decodable {
         case main
         case large
         case rank
+        
+        var identifier: String {
+            switch self {
+            case .basic:
+                return "ContentCollectionViewCell"
+            case .main:
+                return "ContentCollectionViewMainCell"
+            case .large:
+                return "ContentCollectionViewLargeCell"
+            case .rank:
+                return "ContentCollectionViewRankCell"
+            }
+        }
     }
 }
 

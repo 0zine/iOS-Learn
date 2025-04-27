@@ -1,0 +1,65 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcscmblueprint
+
+# SwiftPM
+/.build/
+/.swiftpm/
+/Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Archives and IPA
+*.xcarchive
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Certificate and Provisioning Profiles
+*.cer
+*.mobileprovision
+*.p12
+
+# Temporary files
+*.tmp
+*.swp
+*.lock
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# Xcode Preview
+CanvasPreview/
+
+# XCConfig auto-generated
+project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
